@@ -9,13 +9,13 @@ import Layout from "./components/Layout";
 const App = () => {
   return (
     <Layout>
-      <div className="ui text container">
+      <div className="max-w-2xl mx-auto p-4 text-white-900">
         <Header />
-        <h1 className="ui header">Alex G.'s Portfolio</h1>
+        <h1 className="text-3xl font-bold mb-6">Alex G.'s Portfolio</h1>
         <Routes>
-          <Route exact path="/" element={<Landing />} />
-          <Route exact path="/About" element={<About />} />
-          <Route exact path="/Projects" element={<Projects />} />
+          <Route path="/" element={<Landing />} />
+          <Route path="/About" element={<About />} />
+          <Route path="/Projects" element={<Projects />} />
         </Routes>
       </div>
     </Layout>
