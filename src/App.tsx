@@ -13,9 +13,9 @@ const App = () => {
         <Header />
         <h1 className="text-3xl font-bold mb-6">Alex G.'s Portfolio</h1>
         <Routes>
-          <Route path="/" element={<Landing />} />
-          <Route path="/About" element={<About />} />
-          <Route path="/Projects" element={<Projects />} />
+          <Route path="/asgold8-portfolio/" element={<Landing />} />
+          <Route path="/asgold8-portfolio/About" element={<About />} />
+          <Route path="/asgold8-portfolio/Projects" element={<Projects />} />
         </Routes>
       </div>
     </Layout>
