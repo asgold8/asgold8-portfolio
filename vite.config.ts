@@ -4,6 +4,6 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/asgold8-portfolio/",
+  base: "./",
   plugins: [react(), tailwindcss()],
 });
